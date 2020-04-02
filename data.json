@@ -1,0 +1,48 @@
+{
+    "fields": [
+              { 
+                  "id": "post-title",
+                  "name": "Post Title", 
+                  "fieldType": "text"
+              },
+              { 
+                  "id": "quantity",
+                  "name": "Quantity", 
+                  "fieldType": "number"
+              },
+              { 
+                  "id": "expiry",
+                  "name": "Expiry", 
+                  "fieldType": "date"
+              },
+              { 
+                  "id": "product-details",
+                  "name": "Product Details", 
+                  "fieldType": "textarea"
+              },
+              { 
+                  "id": "product-details-wysiwyg",
+                  "name": "Product Details", 
+                  "fieldType": "wysiwyg"
+              },
+              { 
+                  "id": "type",
+                  "name": "Type", 
+                  "fieldType": "dropdown",
+                  "options": [
+                      {
+                          "value": "basic",
+                          "text": "Basic"
+                      },
+                      {
+                          "value": "pro",
+                          "text": "Pro"
+                      },
+                      {
+                          "value": "premium",
+                          "text": "Premium"
+                      }
+                  ]
+              }
+          ] 
+  }
